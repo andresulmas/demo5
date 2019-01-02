@@ -5,5 +5,5 @@ from src import app
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html', title='Projektijuht')
+    return render_template('home.html', title='Projektikaust')
 
